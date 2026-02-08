@@ -29,5 +29,5 @@ jobs:
       run: docker build . --file Dockerfile --tag rudester1107/rstudio-cowsay:latest
 
     - name: Push the Docker image
-      run: docker push rudester1107/rstudio-cowsay:lates
+      run: docker push rudester1107/rstudio-cowsay:latest
 
